@@ -1,0 +1,78 @@
+body,#container,div,ul,li,span{ 
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{ 
+    background-image: url(bike.jpg);
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.col1,.col2,.col3,.col4{
+    padding: 0px;
+    width: 18.7%;
+    height: 320px;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+.gicon{ font-size: 350%;}
+
+#days,.num{ font-size: 200%; }
+
+.items{ 
+    margin-top: 90px;  
+    -webkit-animation-name: counter-up;
+    -moz-animation-name: counter-up;
+     -webkit-animation-name: counter-up;
+     -webkit-animation-name: counter-up;
+    
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes counter-up{
+    from{margin-top: 120px; opacity: 0;}
+    to{margin-top: 90; opacity: 1;} 
+}
+
+@media only screen and (max-width: 980px){
+    .col1,.col2,.col3,.col4{
+    padding: 0px;
+    width: 37.4%;
+    margin-left: 6%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
